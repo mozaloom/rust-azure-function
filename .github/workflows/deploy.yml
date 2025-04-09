@@ -37,7 +37,7 @@ jobs:
       run: cp target/x86_64-unknown-linux-musl/release/handler .
 
     - name: Azure Login
-      uses: azure/login@v1
+      uses: azure/login@v2
       with:
          creds: ${{ secrets.AZURE_CREDENTIALS }}
 
