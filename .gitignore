@@ -3,7 +3,6 @@ debug/
 target/
 handler
 
-
 # Azure Functions artifacts
 bin
 obj
